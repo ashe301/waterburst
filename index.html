@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<title>Calming Text Box</title>
+<style>
+    body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: top;
+        justify-content: center;
+        background: linear-gradient(135deg, #eef4f3, #f6f8f7);
+        font-family: "Segoe UI", Tahoma, sans-serif;
+    }
+
+    .calm-box {
+        background-color: #ffffff;
+        color: #4a6a6a;
+        padding: 40px 50px;
+        max-width: 1000px;
+        text-align: left;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+        line-height: 1.6;
+    }
+
+    .calm-box p {
+        margin-bottom: 0;
+        font-size: 1.05rem;
+    }
+</style>
 </head>
 <body>
-    <h1>Water bill email</h1>
+
+<div class="calm-box">
+    <p>Hello fellow owners,</p>
     <p>I'm writing about the unresolved motion 5.</p>
     <p>My tenants received a surprise $4000 water bill. My agent contacted VCBS, who informed my agent there were no unusual events, and suggested we organise our own plumber to investigate. (Note: this was 28th October, a month after the carpark leak repair.)</p>
     <p>We called in an independent plumber who reported that the 'mains water supply line to the property had been recently renewed' and to follow up with Body Corporate.</p>
@@ -23,5 +52,8 @@
     </p>
     <p>In all of these cases, the owner has no practical ability to prevent the issue, choose a repair method, or manage costs.</p>
     <p>For better clarity, and to avoid future disputes of this nature, I believe Motion 5 should clearly assign responsibility for services located within or under common property to the owners corporation, regardless of whether they serve one or multiple lots.</p>
+    <p>Best Regards,</p>
+</div>
+
 </body>
 </html>
